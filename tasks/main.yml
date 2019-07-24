@@ -1,0 +1,4 @@
+---
+# tasks file for roles/keys
+- name: add keys for user {{username}}
+  authorized_key: user={{username}} state=present key="{{ lookup('file', '{{key_path}}') }} "

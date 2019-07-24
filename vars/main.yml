@@ -1,0 +1,4 @@
+---
+# vars file for roles/keys
+username: fannuel
+key_path: /home/fw/.ssh/id_rsa.pub
