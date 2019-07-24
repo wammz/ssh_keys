@@ -1,6 +1,6 @@
 galaxy_info:
-  author: your name
-  description: your description
+  author: Fannuel Wamambo
+  description: ansible role to add an ssh key for remote useer
   company: your company (optional)
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -46,6 +46,7 @@ galaxy_info:
     #
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
+    ssh, rhel
 
 dependencies: []
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
